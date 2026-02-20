@@ -46,17 +46,6 @@
             </div>
 
             <div class="form-footer">
-              <div class="social-icons">
-                <a href="https://www.linkedin.com/in/charles-babbage-8291a6211/" id="linkedin">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://gitlab.com/cbabbage0991" id="gitlab">
-                  <i class="fab fa-gitlab"></i>
-                </a>
-                <a href="https://github.com/cbabbage0991" id="github">
-                  <i class="fab fa-github"></i>
-                </a>
-              </div>
 
               <!-- disable the button when sending -->
               <button type="submit" class="submit-btn" :disabled="isLoading">
@@ -334,9 +323,8 @@ onMounted(() => {
 
 
 .recaptcha-wrap {
-  grid-column: 1 / -1;
+
   display: flex;
-  justify-content: flex-end;
   padding-top: 10px;
 }
 

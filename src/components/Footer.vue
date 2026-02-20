@@ -46,14 +46,6 @@
     color: #ffffff;
 }
 
-/* Paragraph spacing and width */
-.text-muted-custom {
-    max-width: 650px;
-    color: var(--secondary-bg);
-    opacity: 0.8;
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
 
 /* Social Wrapper Grid */
 .socia-wrapper {
