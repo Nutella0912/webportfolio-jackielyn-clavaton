@@ -1,4 +1,3 @@
-
   <template>
   <div class="contact-section">
     <h1 class="text-center my-4 pt-3" id="contact">Contact</h1>
@@ -82,13 +81,10 @@
 
 import { ref, onMounted, onBeforeMount } from "vue";
 
-
 import { Notyf } from "notyf";
 import 'notyf/notyf.min.css';
 
-
 const notyf = new Notyf();
-
 
 
 
@@ -97,7 +93,6 @@ const WEB3FORMS_ACCESS_KEY = "92c148aa-5e00-45a2-ab1e-f1f6a6e84be0";
 
 
 const subject = "New message from Portfolio Contact Form";
-
 
 
 const name = ref("");
@@ -109,16 +104,15 @@ const isLoading = ref(false);
 
 
 
-
 const submitForm = async () => {
 
-
+    
     if (!recaptchaToken.value) {
         notyf.error('Please verify that you are not a robot.');
         return;
     }
 
-
+   
     isLoading.value = true;
 
     try {
@@ -141,15 +135,14 @@ const submitForm = async () => {
 
         const result = await response.json();
 
-    
+        
         if(result.success) {
             console.log(result);
 
             isLoading.value = false;
             notyf.success("Message Sent!");
 
-
-            // Clear form fields
+          
             name.value = "";
             email.value = "";
             message.value = "";
@@ -157,7 +150,7 @@ const submitForm = async () => {
         }
 
     } catch (error) {
-      
+        
         console.log(error);
 
         isLoading.value = false;
@@ -165,24 +158,21 @@ const submitForm = async () => {
 
     } finally {
 
-     
+        
         resetRecaptcha();
-
     }
-
 
 }
 
 
-
-const SITE_KEY = "6LfjsHEsAAAAANNa0dgWXsdiZX4NotmtM_B0eTMG"
+const SITE_KEY = "6Lft_XEsAAAAAGK4IPcU7x0gSRcYx8wAF2ImZvkn"
 
 const recaptchaContainer = ref(null);
 const recaptchaWidgetId = ref(null);
 const recaptchaToken = ref('');
 
 
-
+// Once successfully verified the token will be stored in the recaptchaToken state variable.
 function onRecaptchaSuccess(token) {
   recaptchaToken.value = token;
 }
@@ -281,8 +271,8 @@ onMounted(() => {
 .map-container iframe {
   display: block;
   width: 100%;
-  height: 100%;          /* ✅ not 200% */
-  min-height: 520px;     /* desktop */
+  height: 100%;          
+  min-height: 520px;    
   border: none;
 }
 
