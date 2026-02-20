@@ -1,0 +1,28 @@
+<script setup>
+import Navbar from './components/Navbar.vue'
+import Landing from './components/Landing.vue'
+import Tools from './components/Tools.vue'
+import About from './components/About.vue'
+import Projects from './components/Projects.vue'
+import Contacts from './components/Contacts.vue'
+import Footer from './components/Footer.vue'
+
+// import Contact from './components/Contact.vue'
+// import Footer from './components/Footer.vue'
+</script>
+
+<template>
+<Navbar/>
+<Landing/>
+<Tools/>
+<About/>
+<Projects/>
+<Contacts/>
+<Footer/>
+<!-- 
+
+<Footer/>  -->
+</template>
+    
+<style scoped>
+</style>

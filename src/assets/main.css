@@ -1,0 +1,41 @@
+/* --- 1. VARIABLES & RESET --- */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--primary-bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --primary-bg: #2C3639;
+  --secondary-bg: #DCD7C9;
+  --accent-gold: #A27B5C;
+  --ui-box: #3F4E4F;
+  --text-main: #F5F5F5;
+  --text-dark: #2C3639;
+}
+
+
+
+/* --- 2. TYPOGRAPHY (The Bold Tech Look) --- */
+body, p, span, a, .stat-box p, .nav-link, .badge-text, .btn-message {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900; 
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
