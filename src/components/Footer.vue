@@ -10,8 +10,7 @@
                 </h1>
 
                 <p class="text-muted-custom mx-auto mt-3" style="white-space: normal;">
-                    Whether it's design or strategy, I bring a unique perspective to every project. 
-                    I focus on precision, scalability, and modern user experiences.
+                    Whether it's design or strategy, I bring a unique perspective to every project. I focus on precision, scalability, and modern user experiences.
                 </p>
 
                 <div class="socia-wrapper mt-5">
@@ -44,6 +43,21 @@
     font-weight: 900;
     letter-spacing: -1.5px;
     color: #ffffff;
+}
+
+/* Prevent the header letters from overlapping */
+.fw-black {
+    font-weight: 900;
+    letter-spacing: 0.02em; /* Adds a tiny bit of breathing room */
+}
+
+/* Fix the squashed paragraph text */
+.text-muted-custom {
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: 1.6; /* Improves readability */
+    display: block;   /* Ensures it takes up full width */
+    max-width: 600px; /* Prevents it from getting too wide/thin */
 }
 
 
