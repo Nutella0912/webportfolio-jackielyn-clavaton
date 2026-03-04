@@ -6,7 +6,7 @@
             
             <div class="col py-5">
                 <h1 class="hero-title mt-3">
-                    HAY! I'M JACKIELYN <br>
+                    HELLO! I'M JACKIELYN <br>
                     <span class="text-accent">I'M A WEB DEVELOPER</span>
                 </h1>
                 <p class="text-muted-custom mt-4" id="description">

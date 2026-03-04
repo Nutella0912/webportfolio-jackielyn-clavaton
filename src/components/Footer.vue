@@ -8,20 +8,20 @@
                 <h1 class="display-4 fw-black mt-3">
                     WHY <span class="text-accent">ME?</span>
                 </h1>
-                
-                <p class="text-muted-custom mx-auto mt-3">
+
+                <p class="text-muted-custom mx-auto mt-3" style="white-space: normal;">
                     Whether it's design or strategy, I bring a unique perspective to every project. 
                     I focus on precision, scalability, and modern user experiences.
                 </p>
 
                 <div class="socia-wrapper mt-5">
-                    <a href="#" class="social-circle"><img src="/images/Social/facebook.png" alt="Facebook"></a>
-                    <a href="#" class="social-circle"><img src="/images/Social/linkedin.png" alt="LinkedIn"></a>
-                    <a href="#" class="social-circle"><img src="/images/Social/instagram.png" alt="Instagram"></a>
-                    <a href="#" class="social-circle"><img src="/images/Social/email.png" alt="Email"></a>
-                    <a href="#" class="social-circle"><img src="/images/Social/discord.png" alt="Discord"></a>
-                    <a href="#" class="social-circle"><img src="/images/Social/social.png" alt="WhatsApp"></a>
-                    <a href="#" class="social-circle"><img src="/images/Social/viber.png" alt="Viber"></a>
+                    <a href="https://www.facebook.com/jackielyn.clavaton.7" class="social-circle"><img src="/images/Social/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/jackielyn-clavaton-21911118a/" class="social-circle"><img src="/images/Social/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/jackielynclavaton/" class="social-circle"><img src="/images/Social/instagram.png" alt="Instagram"></a>
+                    <a href="mailto:jackielyn.clavaton@gmail.com"class="social-circle"><img src="/images/Social/email.png" alt="Email"></a>
+                    <a href="https://discord.com/users/1447129360329871391" class="social-circle"><img src="/images/Social/discord.png" alt="Discord"></a>
+                    <a href="https://web.whatsapp.com/" class="social-circle"><img src="/images/Social/social.png" alt="WhatsApp"></a>
+                    <a href="viber://chat?number=%2B639388904567" class="social-circle" title="+63 938 890 4567" aria-label="Contact via Viber"><img src="/images/Social/viber.png" alt="Viber"></a>
                 </div>
             </div>
         </div>

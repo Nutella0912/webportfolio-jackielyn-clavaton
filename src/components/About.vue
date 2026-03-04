@@ -26,7 +26,7 @@
                 <div class="d-flex mt-4 gap-3 stats-container">
                     <div class="stat-box">
                         <h3>100%</h3>
-                        <p>Success rate</p>
+                        <p>Reliable</p>
                     </div>
                     <div class="stat-box">
                         <h3>Modern</h3>
