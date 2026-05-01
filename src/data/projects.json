@@ -43,22 +43,22 @@
     },
     {
         "id": 7,
-        "title": "Short Courses Capstone",
-        "description": "Placeholder for your Short courses capstone project.",
-        "image": "/images/Projects/java.jpg",
-        "link": "https://your-link.com"
+        "title": "AWS Short Course Certificate",
+        "description": "I successfully completed the intensive AWS Serverless Short Course at Zuitt Learning Institute Incorporated in April 2026. This certification (ID: DPC-0616-0005) validates my technical proficiency in building cloud solutions using AWS S3, AWS Lambda, AWS API Gateway, and AWS DynamoDB.",
+        "image": "/images/Projects/AWS.PNG",
+        "link": "https://share.zertify.zuitt.co/certificate/e704a31f-8f48-4a3a-bc02-fdc86ac0af40/"
     },
     {
         "id": 8,
-        "title": "Short Courses Capstone",
-        "description": "Placeholder for your Short courses capstone project.",
+        "title": "Python Course Certificate",
+        "description": "Taking this course now",
         "image": "/images/Projects/python.jpg",
         "link": "https://your-link.com"
     },
     {
         "id": 9,
-        "title": "New Project",
-        "description": "Placeholder for your Short courses capstone project.",
+        "title": "Short Course Certicate",
+        "description": "Taking this course after Python",
         "image": "/images/Projects/csharp.jpg",
         "link": "https://your-link.com"
     }
